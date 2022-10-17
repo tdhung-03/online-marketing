@@ -1,0 +1,49 @@
+.footer {
+  background-color: #052347;
+  &-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 0 213px;
+    padding-top: 90px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #11317c;
+  }
+  &-desc {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #afaccd;
+    margin-bottom: 27.5px;
+  }
+  &-logo {
+    margin-bottom: 22px;
+  }
+  &-list {
+    display: flex;
+    gap: 0 73px;
+  }
+  &-btnGroup {
+    display: flex;
+    gap: 0 12px;
+  }
+  &-name {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 35px;
+    color: #d9e1f0;
+    margin-bottom: 10px;
+  }
+  &-choice {
+    li {
+      white-space: nowrap;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 37px;
+      color: #afaccd;
+    }
+  }
+  &-span {
+    padding: 30px 0;
+    text-align: center;
+  }
+}

@@ -1,0 +1,27 @@
+.intro {
+  margin-bottom: 140px;
+  &-container {
+    display: flex;
+    align-items: center;
+    gap: 0 38px;
+  }
+  &-title {
+    font-size: 50px;
+    line-height: 56px;
+  }
+  &-desc {
+    color: #5d677e;
+    margin-bottom: 50px;
+  }
+  &-btnGroup {
+    display: flex;
+    align-items: center;
+    gap: 0 36px;
+    :nth-child(3) {
+      color: #101d48;
+    }
+  }
+  &-image {
+    max-width: 550px;
+  }
+}

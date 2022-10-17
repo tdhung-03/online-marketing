@@ -1,0 +1,19 @@
+.header {
+  margin-bottom: 50px;
+  &-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &-nav {
+    color: #635f85;
+    display: flex;
+    align-items: center;
+    gap: 0 38px;
+  }
+  &-auth {
+    .button {
+      margin-right: 13px;
+    }
+  }
+}

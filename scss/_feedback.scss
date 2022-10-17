@@ -1,0 +1,37 @@
+.feedback {
+  margin-bottom: 140px;
+  &-container {
+    display: flex;
+    align-items: center;
+    gap: 0 208px;
+  }
+  &-desc {
+    margin-bottom: 20px;
+  }
+  &-header {
+    .button {
+      display: block;
+      inline-size: fit-content;
+      padding-top: 18px;
+      padding-bottom: 18px;
+    }
+    span {
+      display: flex;
+      gap: 0 10px;
+      align-items: center;
+      margin-bottom: 34px;
+      strong {
+        color: #f4a11a;
+        line-height: 26px;
+        font-weight: 600;
+        font-size: 25px;
+      }
+    }
+    .part {
+      margin-bottom: 11px;
+    }
+  }
+  &-title {
+    line-height: 70px;
+  }
+}

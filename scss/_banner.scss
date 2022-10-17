@@ -1,0 +1,17 @@
+.banner {
+  background-color: #f4f7fd;
+  padding: 70px 270px;
+  margin-bottom: 140px;
+  &-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0 55px;
+  }
+  &-image {
+    img {
+      width: 100%;
+    }
+    max-width: 154px;
+  }
+}

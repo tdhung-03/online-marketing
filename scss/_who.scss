@@ -1,0 +1,21 @@
+.who {
+  margin-bottom: 112px;
+  &-container {
+    display: flex;
+    align-items: center;
+    gap: 0 87px;
+  }
+  &-title {
+    line-height: 50px;
+  }
+  &-desc {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    margin-bottom: 55px;
+  }
+  &-image {
+    max-width: 525px;
+    transform: translateX(-150px);
+  }
+}

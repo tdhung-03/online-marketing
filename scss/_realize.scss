@@ -1,0 +1,20 @@
+.realize {
+  padding: 117px 0 164px 0;
+  margin-bottom: 140px;
+  background-color: #e2e7fb;
+  &-container {
+    display: flex;
+    gap: 0 26px;
+  }
+  &-title {
+    line-height: 50px;
+  }
+  &-desc {
+    margin-bottom: 52px;
+  }
+  &-image {
+    transform: translateY(75px);
+    width: 100%;
+    max-width: 602px;
+  }
+}

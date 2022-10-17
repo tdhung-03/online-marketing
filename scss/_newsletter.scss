@@ -1,0 +1,44 @@
+.newsletter {
+  margin-bottom: 140px;
+  .container {
+    background-color: #f4f6fd;
+    border-radius: 67px;
+  }
+  &-container {
+    padding: 77px 173px 116px 161px;
+    display: flex;
+    align-items: center;
+    gap: 0 19px;
+  }
+  &-title {
+    line-height: 58px;
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 25px;
+  }
+  &-desc {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  &-signup {
+    display: flex;
+    border-radius: 26.5px;
+    background-color: white;
+    input {
+      padding: 15px 0 15px 20px;
+      margin-right: 35px;
+      border-radius: 26.5px;
+      color: #6b7d93;
+      border: none;
+      line-height: 24px;
+    }
+    .button {
+      border-radius: 26.5px;
+      line-height: 24px;
+      padding: 15px 30px 15px 30px;
+      font-weight: 500;
+      font-size: 16px;
+    }
+  }
+}
